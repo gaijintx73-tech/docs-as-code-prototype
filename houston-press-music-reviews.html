@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Houston Press — Music Reviews · Docs-as-Code Prototype</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Georgia, 'Times New Roman', serif;
+         color: #1d2733; background: #f4f2ed; line-height: 1.65; }
+  header { background: #14456b; color: #fff; padding: 1.1rem 1.5rem; }
+  header .site { font-size: 1.35rem; font-weight: bold; letter-spacing: .02em; }
+  header .tag { font-size: .85rem; opacity: .85; font-style: italic; }
+  .wrap { display: flex; max-width: 1100px; margin: 0 auto; gap: 2rem;
+           padding: 1.5rem 1rem 3rem; align-items: flex-start; }
+  nav { flex: 0 0 230px; background: #fff; border: 1px solid #ddd6c9;
+         border-radius: 8px; padding: 1rem 1.1rem; position: sticky; top: 1rem; }
+  nav h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em;
+           color: #6b7684; margin: 0 0 .6rem; }
+  nav ul { list-style: none; margin: 0; padding: 0; }
+  nav li { margin: .45rem 0; }
+  nav a { color: #14456b; text-decoration: none; font-size: .95rem; }
+  nav a:hover { text-decoration: underline; }
+  nav a.current { font-weight: bold; color: #b3541e; }
+  main { flex: 1; background: #fff; border: 1px solid #ddd6c9;
+          border-radius: 8px; padding: 2rem 2.4rem; min-width: 0; }
+  main h1 { font-size: 1.7rem; line-height: 1.25; margin-top: 0; }
+  main h2 { font-size: 1.3rem; margin-top: 2rem; color: #14456b; }
+  main h3 { font-size: 1.1rem; margin-top: 1.6rem; }
+  main a { color: #14456b; }
+  blockquote { border-left: 3px solid #b3541e; margin-left: 0;
+                padding-left: 1rem; color: #44515f; font-style: italic; }
+  footer { text-align: center; color: #6b7684; font-size: .85rem;
+            padding: 0 1rem 2rem; }
+  @media (max-width: 760px) {
+    .wrap { flex-direction: column; }
+    nav { position: static; width: 100%; flex: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="site">Docs-as-Code Prototype</div>
+  <div class="tag">Prototype documentation site built from existing writing samples</div>
+</header>
+<div class="wrap">
+  <nav>
+    <h2>Pages</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="data-dynamics-training-portal.html">Data Dynamics — Training Portal</a></li>
+      <li><a href="empowering-users.html">Empowering Users: Beyond Text-Based Documentation</a></li>
+      <li><a href="exxonmobil-coexisting-with-the-fishing-industry.html">ExxonMobil: Coexisting With the Fishing Industry</a></li>
+      <li><a href="houston-press-music-reviews.html" class="current">Houston Press — Music Reviews</a></li>
+    </ul>
+  </nav>
+  <main>
+<h1>Houston Press — Music Reviews</h1>
+<p>Music writing by Jeremy Hart · houstonpress.com</p>
+<p>Archived screenshots from the early-2000s houstonpress.com design; the original pages are no longer online.</p>
+<h2>Contents</h2>
+<ul>
+<li>"Sad Like Crazy" — Love Songs to Death (Ojet), HoustonPress.com, 08/02/2001</li>
+<li>"Reach for the Sky" — Hands Up Houston, HoustonPress.com Music section, 2001</li>
+</ul>
+<h2>Reach for the Sky</h2>
+<p>The selfishness of Hands Up Houston nourishes Space City's beleaguered indie scene</p>
+<p>BY JEREMY HART</p>
+<p>So, who is the king of pop, these days? That's the question that comes up while watching the MTV Music Video Awards in the living room of the Hands Up house. The assembled members of Hands Up Houston are perplexed. It's not Michael Jackson, that's for sure. Bono? Nah. Dave Grohl? Don't think so. Justin Timberlake? Let's hope not. The best anyone can come up with, sadly, is Puff Daddy/P. Diddy, but that still doesn't sit quite right.</p>
+<p>The five Hands Up guys present -- founding members Jason Colburn, Russell Etchen, Bucky Thuerwachter and Lance Walker, along with new recruit Bobby Lane -- look at the floor, concentrating. They don't come up with a winner, but the thought they're putting into the question is extremely telling. These guys take their music very seriously.</p>
+<p>Hands Up Houston was born in March 2000. In the words of the group's Web site (www.handsuphouston.com), Hands Up is a "show collective," a handful of friends and music fanatics who've made it their mission to bring good</p>
+<p><em>The archived screenshot shows only the first screen of the article; the text above is what appears in it.</em></p>
+<p><em>Photo caption: The Hands Up guys are now presenting competing "Choose Your Own Adventure" gigs. (Photo by Deron Neblett)</em></p>
+<p><strong>Details:</strong> Upcoming Hands Up Houston shows include Superchunk/the Good Life/Lucky Motors, November 1, Rice University Grand Hall; Death Cab for Cutie/the Prom/Death Ray Davies, November 9, Mary Jane's; the Liars/Aspera/Elisabeth Elmore/the Gloria Record, November 17, Lyle's (Rice University campus); the (International) Noise Conspiracy/Rival Schools/the Hives, November 25, Mary Jane's</p>
+  </main>
+</div>
+<footer>Built from Markdown sources in the src folder with build.py.</footer>
+</body>
+</html>
